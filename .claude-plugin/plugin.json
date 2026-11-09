@@ -1,0 +1,10 @@
+{
+  "name": "widget-modifica-metadati",
+  "description": "Apre un widget con le anteprime di Google, browser, WhatsApp e iMessage per scegliere titolo, descrizione e immagine di una pagina, poi passa la bozza a metadata-general-audit. Usa quando l'utente chiede di cambiare o scegliere i metadati, il titolo SEO o l'anteprima di condivisione di una pagina.",
+  "author": {
+    "name": "Tiziano Boccaccini"
+  },
+  "homepage": "https://www.cryptohelvetia.com/ch-labs/prompt-library/skills/widget-modifica-metadati",
+  "repository": "https://github.com/MicheDada21/widget-modifica-metadati",
+  "license": "MIT"
+}
