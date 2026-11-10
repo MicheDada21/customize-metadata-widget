@@ -1,6 +1,6 @@
 ---
-name: widget-modifica-metadati
-description: "Apre un widget con le anteprime di Google, browser, WhatsApp e iMessage per scegliere titolo, descrizione e immagine di una pagina, poi passa la bozza a metadata-general-audit. Usa quando l'utente chiede di cambiare o scegliere i metadati, il titolo SEO o l'anteprima di condivisione di una pagina."
+name: customize-metadata-widget
+description: "Apre un widget con le anteprime di Google, browser, WhatsApp e iMessage per scegliere titolo, descrizione e immagine di una pagina, poi passa la bozza a coordinate-metadata-saio. Usa quando l'utente chiede di cambiare o scegliere i metadati, il titolo SEO o l'anteprima di condivisione di una pagina."
 disable-model-invocation: true
 ---
 
@@ -8,7 +8,7 @@ disable-model-invocation: true
 
 ## Ambito
 
-La skill lavora su una pagina alla volta e finisce quando l'utente invia la bozza dal widget. Applicazione e controllo del sito spettano alla skill `metadata-general-audit`. Fino all'invio la chat contiene solo il widget e una riga che invita a compilarlo e inviarlo. Ciò che noti e che il widget non copre, per esempio problemi del sito, dei redirect o del contenuto, entra nella lista delle osservazioni della bozza. Se la richiesta indica già i valori esatti, apri direttamente `metadata-general-audit` con quei valori.
+La skill lavora su una pagina alla volta e finisce quando l'utente invia la bozza dal widget. Applicazione e controllo del sito spettano alla skill `coordinate-metadata-saio`. Fino all'invio la chat contiene solo il widget e una riga che invita a compilarlo e inviarlo. Ciò che noti e che il widget non copre, per esempio problemi del sito, dei redirect o del contenuto, entra nella lista delle osservazioni della bozza. Se la richiesta indica già i valori esatti, apri direttamente `coordinate-metadata-saio` con quei valori.
 
 ## Raccogli i valori attuali
 
@@ -101,7 +101,7 @@ Salva dopo ogni modifica con lo storage dell'ambiente e mostra «Salvataggio», 
 
 L'azione principale, per esempio «Invia alla chat per implementare», manda un unico messaggio con un blocco JSON che contiene questi dati.
 
-- La skill che applica la bozza, `metadata-general-audit`, all'indirizzo `https://www.cryptohelvetia.com/ch-labs/prompt-library/skills/metadata-general-audit/SKILL.md`, così un agente in una nuova chat la scarica e la segue.
+- La skill che applica la bozza, `coordinate-metadata-saio`, all'indirizzo `https://www.cryptohelvetia.com/ch-labs/prompt-library/skills/coordinate-metadata-saio/SKILL.md`, così un agente in una nuova chat la scarica e la segue.
 - La pagina e il file che produce i metadati.
 - La base, con origine e momento della lettura.
 - I valori proposti, verbatim, compreso il titolo finale con il modello applicato.
