@@ -1,6 +1,6 @@
 ---
 name: customize-metadata-widget
-description: "Apre un widget con le anteprime di Google, browser, WhatsApp e iMessage per scegliere titolo, descrizione e immagine di una pagina, poi passa la bozza a coordinate-metadata-saio. Usa quando l'utente chiede di cambiare o scegliere i metadati, il titolo SEO o l'anteprima di condivisione di una pagina."
+description: "Opens a widget with Google, browser, WhatsApp and iMessage previews to pick a page's title, description and image, then hands the draft on. Use when choosing SEO titles or share previews."
 disable-model-invocation: true
 ---
 
