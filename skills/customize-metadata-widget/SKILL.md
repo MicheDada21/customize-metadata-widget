@@ -4,7 +4,7 @@ description: "Opens a widget with Google, browser, WhatsApp and iMessage preview
 disable-model-invocation: true
 ---
 
-# Modifica i metadati di una pagina con anteprima
+# Customize metadata widget
 
 ## Ambito
 
